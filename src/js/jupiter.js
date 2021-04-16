@@ -6,6 +6,10 @@ export default class Jupiter{
     return this.divideByJup();
   }
   divideByJup() {
-    return Math.round(this.jup /= 11.86);
+    if (this.jup < 11.86) {
+      return("You are less than one in Jupiter years.");
+    } else{
+      return Math.round(this.jup /= 11.86);
+    }
   }
 }
