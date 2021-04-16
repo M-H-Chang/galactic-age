@@ -5,7 +5,7 @@ export default class Venus{
   get venusAge() {
     return this.divideByVenus();
   }
-  // divideByVenus() {
-  //   return Math.round(this.ven /= .62);
-  // }
+  divideByVenus() {
+    return Math.round(this.ven /= .62);
+  }
 }
