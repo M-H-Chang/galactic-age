@@ -6,6 +6,9 @@ export default class Mars{
     return this.divideByMars();
   }
   divideByMars() {
+    if (this.mars < 1.88) {
+      return("You are less than one in Mars years.");
+    }
     return Math.round(this.mars /= 1.88);
   }
 }
