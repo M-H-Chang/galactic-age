@@ -1,7 +1,12 @@
 export default class Mercury{
-  divideByMercury(age) {
-    // age /= .24;
-    // Math.round(age);
+  constructor(merc) {
+    this.merc = merc;
+  }
+  get mercuryAge() {
+    return this.divideByMercury();
+  }
+  divideByMercury() {
+    return this.merc /= .24;
   }
 }
   
