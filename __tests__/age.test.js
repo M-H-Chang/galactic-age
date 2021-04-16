@@ -1,13 +1,13 @@
 import Age from './../src/age.js';
 
 describe('Age', () => {
-  // let age;
-  // beforeEach(() => {
-  //   age = new Age();
-  // }); 
+  let num;
+  beforeEach(() => {
+    num = new Age();
+  }); 
 
   test('it should return num for the age', () => {
-    age.name = 5;
-    expect(age.name).toEqual(5);
+    num.age = 5;
+    expect(num.age).toEqual(5);
   });
 });
