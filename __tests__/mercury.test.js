@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import Mercury from './../src/mercury.js';
+import Mercury from '../src/js/mercury.js';
 
 describe('Mercury', () => {
   test('this should divide 5 by .24and equal 21', () => {

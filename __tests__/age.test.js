@@ -1,5 +1,5 @@
-import Age from './../src/age.js';
-import Mercury from './../src/mercury.js';
+import Age from './../src/js/age.js';
+import Mercury from './../src/js/mercury.js';
 
 describe('Age', () => {
   let num;

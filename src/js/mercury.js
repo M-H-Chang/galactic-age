@@ -6,7 +6,7 @@ export default class Mercury{
     return this.divideByMercury();
   }
   divideByMercury() {
-    return this.merc /= .24;
+    return Math.round(this.merc /= .24);
   }
 }
   
