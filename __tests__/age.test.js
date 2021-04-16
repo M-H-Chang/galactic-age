@@ -1,4 +1,5 @@
 import Age from './../src/age.js';
+import Mercury from './../src/mercury.js';
 
 describe('Age', () => {
   let num;
