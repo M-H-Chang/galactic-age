@@ -10,12 +10,12 @@ export default class Age {
   }
 
   yearsRemain(num) {
-    // if (num < this.avgAge) {
     this.avgAge -= num;
     return this.avgAge;
-    // } else if (num > this.avgAge) {
-    // num -= this.avgAge;
-    // return num;
-    // }
   }
+
+  // yearsOver(num) {
+  //   num -+ this.avgAge;
+  //   return num;
+  // }
 }
