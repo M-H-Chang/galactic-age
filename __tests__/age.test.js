@@ -19,4 +19,8 @@ describe('Age', () => {
     const average = num.avgAge;
     expect(average).toEqual(72);
   });
+  test('it should subtract the age that is calculated', () => {
+    num.age = 35;
+    expect(average(35)).toEqual(37);
+  });
 });
