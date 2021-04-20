@@ -20,7 +20,7 @@ describe('Age', () => {
     expect(average).toEqual(72);
   });
   test('it should subtract the age that is calculated', () => {
-    num.average(35);
+    num.yearsRemain(35);
     expect(num.avgAge).toEqual(37);
   });
 });

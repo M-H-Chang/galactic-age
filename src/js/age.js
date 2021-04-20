@@ -9,7 +9,7 @@ export default class Age {
     this.avgAge = 72;
   }
 
-  average(num) {
+  yearsRemain(num) {
     this.avgAge -= num;
     return this.avgAge;
   }
