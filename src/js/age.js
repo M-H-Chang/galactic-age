@@ -6,7 +6,7 @@
 export default class Age {
   constructor(num) {
     this.age = num;
-    // this.avgAge = 72;
+    this.avgAge = 72;
   }
 
 }

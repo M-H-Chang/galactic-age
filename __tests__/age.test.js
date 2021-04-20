@@ -15,8 +15,8 @@ describe('Age', () => {
     num.age = 5;
     expect(num.age).toEqual(5);
   });
-  test('is should get the average age of 72', () => {
-    const average = this.avgAge;
+  test('it should get the average age of 72', () => {
+    const average = num.avgAge;
     expect(average).toEqual(72);
   });
 });
