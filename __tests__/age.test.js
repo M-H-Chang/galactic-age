@@ -23,4 +23,8 @@ describe('Age', () => {
     num.yearsRemain(35);
     expect(num.avgAge).toEqual(37);
   });
+  test('if user input is greater than 72 then subtract it from 72.', () => {
+    num.yearsRemain(90);
+    expect(num).toEqual(18);
+  });
 });
