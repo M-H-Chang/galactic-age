@@ -25,6 +25,6 @@ describe('Age', () => {
   });
   test('it should subtract the years of 72', () => {
     num.yearsOver(80);
-    expect(num.yearsOver(num).toEqual(8));
+    expect(num.avgAge).toEqual(8);
   });
 });
