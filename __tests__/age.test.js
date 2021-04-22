@@ -12,8 +12,8 @@ describe('Age', () => {
   }); 
 
   test('it should return num for the age', () => {
-    num.age = 5;
-    expect(num.age).toEqual(5);
+    let newNum = new Age(5);
+    expect(newNum.age).toEqual(5);
   });
   test('it should get the average age of 72', () => {
     const average = num.avgAge;
@@ -24,7 +24,6 @@ describe('Age', () => {
     expect(num.avgAge).toEqual(37);
   });
   test('it should subtract the years of 72', () => {
-    num.yearsOver(80);
-    expect(num.avgAge).toEqual(8);
+    expect(num.yearsOver(80)).toEqual(8);
   });
 });

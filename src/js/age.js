@@ -15,7 +15,7 @@ export default class Age {
   }
 
   yearsOver(num) {
-    this.avgAge -= num;
-    return Math.abs(this.avgAge);
+    num -= this.avgAge;
+    return num;
   }
 }
